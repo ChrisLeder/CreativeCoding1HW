@@ -1,1 +1,14 @@
-GUI vs CLI.
+Chris Leder
+MART 120 Creative Coding 1
+Assignment Week 1 HW
+GUI vs CLI
+1/20/2024						
+				
+
+GUI (Graphic User Interface) and CLI (Command Line Interface) are two types of user interface that allow users to interact with electronic devices and programs.
+
+GUI is the more modern method. WIMP (Windows, Icons, Menus, Pointers) is a GUI that is most familiar to people as it is used on mobile devices. In GUI’s Folder icons are the directories that store files (pictures, videos, text, etc.), and are accessed by the use of a pointer (mouse, cursor). GUI has a high degree of ‘Usability’ (improved efficiency and ease of use).
+
+CLI is a text-based method that replaced the use of punch cards in the 1960’s. It is more powerful than GUI as it provides more options for the user. While being more flexible and allowing a greater range of control of programs, it has a lower degree of usability. It can only recall information for a task, it can be slow and error prone, it has a steep learning curve, and many commands are not easily discoverable.
+
+Both GUI and CLI have advantages and disadvantages for the user. Which one to use is going to be based on personal preference and type of program or application the user is trying to interact with.
