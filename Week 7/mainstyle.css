@@ -5,3 +5,13 @@ body{
 span {
     text-color: purple;
   }
+  .purple{
+    color: purple;
+  }
+  #bigger{
+    font-size: 25px;
+}
+#font-color{
+    font-color: purple;
+
+}
