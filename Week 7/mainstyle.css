@@ -1,17 +1,15 @@
 body{
-    background-color: lightslategray;
-    text-align: center;
+  background-color: lightslategray;
+  text-align: center;
 }
-span {
-    text-color: purple;
-  }
-  .purple{
-    color: purple;
-  }
-  #bigger{
-    font-size: 25px;
+body{
+  color: purple;
 }
-#font-color{
-    font-color: purple;
-
+.purple{
+  color: purple;
+}
+#bigger{
+  font-size: 25px;}
+color{
+  color: purple;
 }
