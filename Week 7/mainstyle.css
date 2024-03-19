@@ -1,15 +1,18 @@
 body{
   background-color: lightslategray;
   text-align: center;
-}
+  .highlight { font-weight: bold; color: red; }
+
+  #special-text{ font-style: italic; color: green; }
+    }
 body{
   color: purple;
-}
+    }
 .purple{
   color: purple;
-}
+    }
 #bigger{
   font-size: 25px;}
 color{
   color: purple;
-}
+    }
