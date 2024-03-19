@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Page 3</title>
-        <link rel="stylesheet" type="text/css" href="mainstyle.css">
-        <script>
-          function getData()
-          {
-            var name = document.getElementById("txtName").value;
-            var phone = document.getElementById("txtPhone").value;
-            var email = document.getElementById("txtEmail").value;
 
-            window.alert("name: " = + name + " phone: "  + phone + "email: " + email);
-          }
-        </script>
-  </head>  
-  <body style="background-color:slategray;">
-    If you would like more information, or would like to play these games, or any others, please fill out your information, and click the More button
-      <br>
-    <table>
-        <tr>
-            <td>Name</td>
-            <td><input type= "text" id="textName"></td>
-        </tr>
-        <tr>
-            <td>Phone Number</td>
-            <td><input type="text" id="txtPhone"></td>
-        </tr>
-        <tr>
-          <td>Email</td>
-          <td><input type= "text" id="txtEmail"></td>
-        </tr>
-        <tr>
-            <td colspan="2"><button id="btnMore" onClick=getData();>More</button></td>
-        </tr>
-    </table>
+<head>
+  <title>Page 3</title>
+  <link rel="stylesheet" type="text/css" href="mainstyle.css">
+  
+  <script>
+    function getData() {
+      var name = document.getElementById("txtName").value;
+      var email = document.getElementById("txtEmail").value;
+      var Terms of Agreement = document.getElementById("txtTerms of Agreement").value;
 
-    <form style="color:purple;">
-        First Name: <input type="text"> <br>
-        Last Name: <input type="text"> <br>
-        Email: <input type="text"> <br>
-        <br>
-        <button type="button">More</button>
+      window.alert("name: " = + name + "email: " + email "Terms of Agreement" + Terms of Agreement);
+    }
+     
+  </script>
+  <script defer src="script.js"></script>
+  <style>{
+    <span>
+      <style=background-color:red;> 
+      </span>
+      
+    }
 
-    </form>
-  </body>
+  </style>
+  
+</head>
+
+<body style="background-color:slategray;">
+    
+    <form id="form"
+  If you would like more information, or would like to play these games, or any others, please fill out your
+  information, and click the More button<br><br>
+
+  <p class="highlight">All Fields must be filled out.</p>
+  
+  <table>
+    <tr>
+      <td>Name</td>
+      <td><input type="text" id="textName" required></td>
+    </tr>
+
+    <tr>
+      <td>Email</td>
+      <td><input type="text" id="txtEmail" required></td>
+    </tr>
+    <br>
+    <br>
+    <aside>
+      <td>Terms of Agreement yes/no</td>
+      <td><input type="text" id="txtTerms of Agreement yes/no" required></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button id="btnMore" onClick=getData();>More</button></td>
+      </tr>
+  </table><br>
+  <br>
+  <br>
+  <br>
+  <p id="special-text">If You would like to play a simple yet challenging game click the Next button.</p>
+  
+
+  <form style="color:purple;">
+    <button type="button"><a href="Page4.html">Next</a></button>
+  </form>
+</body>
+
 </html>

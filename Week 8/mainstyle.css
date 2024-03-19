@@ -10,6 +10,15 @@ body{
   }
   #bigger{
     font-size: 25px;}
-color{
-    color: purple;
+  color{
+    color: purple;}
+  {
+  .highlight {
+     font-weight: bold; color: red;}
+  #special-text{font-style: italic; color: green}
+  
+    
 }
+
+
+    
