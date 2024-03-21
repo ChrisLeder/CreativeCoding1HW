@@ -1,6 +1,6 @@
 const Name = document.getElementById('Name')
 const Email = document.getElementById('Email')
-const Terms of Agreement = document.getElementById('Terms of Agreement')
+const Terms of Agreement = document.getElementById('termsOfAgreement')
 const form = document.getElementById('form')
 const errorElement = document.getElementById('error')
 
@@ -13,13 +13,13 @@ form.addEventListener('More', (e) => {
     if (Email.value ==='' || Email.value==null)
         messages.push('Email is required')
         <span> Email is Required. </span>
-        if (Terms of Agreement.value ==='yes') {
+        if (termsOfAgreement.value ==='yes') {
             messages.push('Thank You for your Interest. Someone will contact you.')
             <span> Terms of Agreement is Required. </span>
         }
         else{
             message.push('Thank you for your interest. You will not be contacted.')
-            if (Terms of Agreement.value ==='No') {
+            if (termsOfAgreement.value ==='No') {
                 messages.push(Thank you for your Interest.)
                 <span> Thank you for your Interest. </span>
             }
